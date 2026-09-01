@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCAM Watch Incident",
+  "type": "object",
+  "required": ["incident_id", "title", "classification", "date_reviewed", "last_updated", "platform", "category", "evidence_notes"],
+  "properties": {
+    "incident_id": {"type": "string"},
+    "title": {"type": "string"},
+    "classification": {"enum": ["Confirmed Fraud", "Likely Scam", "High Risk", "Unverified", "Cleared / Resolved"]},
+    "date_reviewed": {"type": "string", "format": "date"},
+    "last_updated": {"type": "string", "format": "date"},
+    "platform": {"type": "string"},
+    "category": {"type": "string"},
+    "seller_identity_as_presented": {"type": ["string", "null"]},
+    "listing_location": {"type": ["string", "null"]},
+    "asking_price": {"type": ["number", "null"]},
+    "currency": {"type": ["string", "null"]},
+    "payment_method_requested": {"type": ["string", "null"]},
+    "source_urls": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "red_flags": {"type": "array", "items": {"type": "string"}},
+    "evidence_notes": {"type": "string"},
+    "identity_verified": {"type": "boolean", "default": false},
+    "case_path": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
