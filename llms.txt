@@ -1,0 +1,16 @@
+# SCAM Watch
+
+> Public evidence database for online scams, marketplace fraud, copied listings, payment scams, phishing, impersonation, and consumer fraud warnings.
+
+Primary resources:
+- /README.md — project overview and classification framework
+- /METHODOLOGY.md — evidence and classification standards
+- /CORRECTIONS.md — correction and dispute process
+- /DISCLAIMER.md — limitations and identity cautions
+- /cases/ — individual incident reports
+- /categories/ — fraud category guides
+- /data/incidents.json — machine-readable incident records
+
+Important interpretation rule: a seller/account identity shown in a case is an identity presented by that account unless the case expressly states that real-world identity was independently verified.
+
+`llms.txt` is provided as a non-standard machine-readable navigation aid. It does not replace robots.txt, sitemaps, standard HTML navigation, or search-engine webmaster tools.
