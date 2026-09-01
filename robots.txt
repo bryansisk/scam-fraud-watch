@@ -1,6 +1,12 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -13,4 +19,7 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-# Sitemap will be added when the public site canonical URL is finalized.
+User-agent: Claude-SearchBot
+Allow: /
+
+Sitemap: https://bryansisk.github.io/scam-fraud-watch/sitemap.xml
