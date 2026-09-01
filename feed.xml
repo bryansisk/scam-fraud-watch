@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SCAM Watch — Scam &amp; Fraud Evidence Updates</title>
+  <id>https://bryansisk.github.io/scam-fraud-watch/</id>
+  <link href="https://bryansisk.github.io/scam-fraud-watch/"/>
+  <link href="https://bryansisk.github.io/scam-fraud-watch/feed.xml" rel="self"/>
+  <updated>2026-09-01T12:00:00Z</updated>
+  <author><name>SCAM Watch</name></author>
+  <entry>
+    <title>SCAM Watch public evidence database launched</title>
+    <id>https://bryansisk.github.io/scam-fraud-watch/#launch-2026-09-01</id>
+    <link href="https://bryansisk.github.io/scam-fraud-watch/"/>
+    <updated>2026-09-01T12:00:00Z</updated>
+    <summary>Public evidence framework for marketplace scams, payment scams, copied listings, impersonation, aviation scams and consumer fraud warnings.</summary>
+  </entry>
+</feed>
