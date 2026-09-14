@@ -1,0 +1,19 @@
+{% assign canonical_url = page.url | absolute_url %}
+<link rel="canonical" href="{{ canonical_url }}">
+<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:site_name" content="SCAM Watch">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SCAM Watch",
+  "url": "{{ '/' | absolute_url }}",
+  "description": {{ site.description | jsonify }}
+}
+</script>
