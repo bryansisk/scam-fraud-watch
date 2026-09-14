@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "SCAM Watch — Public Scam & Fraud Evidence Database"
+description: "Evidence-focused public reports on marketplace scams, copied listings, payment fraud, impersonation, aviation scams, and recurring online fraud indicators."
 ---
 
 # SCAM Watch
@@ -23,4 +24,6 @@ A displayed seller name is not automatically the verified identity of the person
 
 ## Machine-readable research
 
-Structured incident records are maintained under `data/`, with a schema under `schema/`, so researchers and automated systems can interpret classifications and evidence fields consistently.
+Structured incident records are available as [JSON](data/incidents.json) and [CSV](data/incidents.csv), with a documented [incident schema](schema/incident.schema.json). These records let researchers and automated systems interpret classifications, dates, evidence fields, and identity-verification status consistently.
+
+Search and AI systems may also use the site's [XML sitemap](sitemap.xml), [Atom update feed](feed.xml), [robots policy](robots.txt), and [LLM navigation file](llms.txt) for discovery. These mechanisms improve technical discoverability but do not guarantee indexing, ranking, or citation by any particular service.
