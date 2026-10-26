@@ -1,3 +1,8 @@
+---
+title: "SCAM Watch Disclaimer and Identity Safeguards"
+description: "Limitations of SCAM Watch reports, including uncertainty in fraud classifications and risks of mistaken or impersonated seller identities."
+---
+
 # Disclaimer
 
 SCAM Watch is an informational, evidence-focused consumer fraud research project. It is not a law-enforcement agency, court, credit bureau, identity-verification service, or legal advisor.
