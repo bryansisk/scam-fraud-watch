@@ -1,16 +1,23 @@
-# SCAM Watch
+# SCAM Watch — Evidence-Based Scam and Fraud Research
 
-> Public evidence database for online scams, marketplace fraud, copied listings, payment scams, phishing, impersonation, and consumer fraud warnings.
+> Public-interest guides to marketplace fraud indicators, copied listings, unprotected payments, impersonation, and aviation equipment scams. The project has not yet published any reviewed individual incident records.
 
-Primary resources:
-- /README.md — project overview and classification framework
-- /METHODOLOGY.md — evidence and classification standards
-- /CORRECTIONS.md — correction and dispute process
-- /DISCLAIMER.md — limitations and identity cautions
-- /cases/ — individual incident reports
-- /categories/ — fraud category guides
-- /data/incidents.json — machine-readable incident records
+Website: https://bryansisk.github.io/scam-fraud-watch/
 
-Important interpretation rule: a seller/account identity shown in a case is an identity presented by that account unless the case expressly states that real-world identity was independently verified.
+## Public research and policies
+- https://bryansisk.github.io/scam-fraud-watch/ — project overview and publication status
+- https://bryansisk.github.io/scam-fraud-watch/METHODOLOGY.html — evidence hierarchy and classification standards
+- https://bryansisk.github.io/scam-fraud-watch/CORRECTIONS.html — correction and dispute process
+- https://bryansisk.github.io/scam-fraud-watch/DISCLAIMER.html — limitations and identity safeguards
+- https://bryansisk.github.io/scam-fraud-watch/CONTRIBUTING.html — reporting and privacy guidelines
+- https://bryansisk.github.io/scam-fraud-watch/categories/ — category guides
 
-`llms.txt` is provided as a non-standard machine-readable navigation aid. It does not replace robots.txt, sitemaps, standard HTML navigation, or search-engine webmaster tools.
+## Data
+- https://bryansisk.github.io/scam-fraud-watch/data/incidents.json — machine-readable dataset (currently empty)
+- https://bryansisk.github.io/scam-fraud-watch/schema/incident.schema.json — incident record specification
+- https://bryansisk.github.io/scam-fraud-watch/sitemap.xml — HTML page discovery
+
+## Interpretation
+The labels Confirmed Fraud, Likely Scam, High Risk, Unverified, and Cleared / Resolved are evidence-based classifications, not identity determinations. An account's presented name, photograph, or payment handle is not proof of the person operating it. Do not present an unverified allegation as an established fact.
+
+This is a supplemental navigation file, not a substitute for robots.txt, standard HTML links, sitemaps, or independent verification.
