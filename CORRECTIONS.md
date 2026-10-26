@@ -1,3 +1,8 @@
+---
+title: "Corrections, Disputes, and Evidence Updates"
+description: "How to request factual corrections, challenge incident classifications, and provide supporting evidence for SCAM Watch reports."
+---
+
 # Corrections, Disputes, and Updates
 
 SCAM Watch is designed to be correctable. Publication is not a claim of infallibility.
