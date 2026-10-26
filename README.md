@@ -38,3 +38,13 @@ SCAM Watch does not accept payment to remove accurate public-interest informatio
 ## Corrections
 
 Accuracy matters more than preserving an earlier conclusion. If reliable new evidence changes a case, the classification and case record should be corrected promptly while preserving an appropriate revision history. See `CORRECTIONS.md`.
+
+## Read the category guides
+
+- [Marketplace listing risks](categories/marketplace-scams.md)
+- [Payment requests and buyer protection](categories/payment-scams.md)
+- [Copied photos and listings](categories/copied-listing-scams.md)
+- [Seller account impersonation](categories/impersonation-scams.md)
+- [Aviation equipment listings](categories/aviation-scams.md)
+
+**Publication status (October 26, 2026):** The machine-readable incident dataset contains no published individual cases. Category pages describe general warning signs, not findings against named individuals or businesses. The intended public site is `https://bryansisk.github.io/scam-fraud-watch/`; GitHub Pages deployment must be confirmed separately before treating that address as live.
