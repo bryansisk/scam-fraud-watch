@@ -1,2 +1,33 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ page.title | default: site.title | escape }}</title>{% include head-custom.html %}</head><body><main>{{ content }}</main></body></html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% unless page.url == '/' %} | SCAM Watch{% endunless %}{% else %}{{ site.title | escape }}{% endif %}</title>
+  {% include head-custom.html %}
+  <style>
+    body { margin: 0 auto; padding: 1.5rem; max-width: 56rem; color: #202b38; background: #fff; font: 1rem/1.65 system-ui, -apple-system, sans-serif; }
+    a { color: #1357a6; text-underline-offset: 2px; }
+    a:focus-visible { outline: 3px solid #c16b00; outline-offset: 3px; }
+    header, footer { padding: .8rem 0; border-bottom: 1px solid #d6dde6; }
+    header nav a { display: inline-block; margin: .2rem 1rem .2rem 0; }
+    main { min-height: 50vh; }
+    h1, h2, h3 { line-height: 1.3; }
+    footer { margin-top: 2rem; border-top: 1px solid #d6dde6; border-bottom: 0; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Site navigation">
+      <a href="{{ '/' | relative_url }}">SCAM Watch home</a>
+      <a href="{{ '/METHODOLOGY.html' | relative_url }}">Evidence methodology</a>
+      <a href="{{ '/CORRECTIONS.html' | relative_url }}">Corrections</a>
+      <a href="{{ '/CONTRIBUTING.html' | relative_url }}">Submit evidence</a>
+    </nav>
+  </header>
+  <main id="content">{{ content }}</main>
+  <footer>
+    <p>SCAM Watch documents evidence and uncertainty. An account's displayed identity does not establish the identity of its operator. <a href="{{ '/DISCLAIMER.html' | relative_url }}">Read the disclaimer</a>.</p>
+  </footer>
+</body>
+</html>
