@@ -1,3 +1,8 @@
+---
+title: "Submit Evidence and Scam Reports to SCAM Watch"
+description: "Evidence requirements, redaction standards, and classification guidance for contributors reporting suspected online scams."
+---
+
 # Contributing Scam and Fraud Reports
 
 Contributions should help establish verifiable facts rather than amplify accusations.
