@@ -29,3 +29,9 @@ Search optimization must never change an evidence classification, invent identif
 ## Deployment verification
 
 The canonical site and its sitemap must return publicly accessible HTML/XML before indexing claims can be made. Confirm GitHub Pages publishing settings and build status. A valid sitemap in the repository alone does not prove a live Pages deployment. The dataset is currently empty; do not advertise published case reports until an evidence-reviewed record exists.
+
+### October 26, 2026 deployment diagnosis
+
+The official GitHub Pages workflow at `.github/workflows/pages.yml` successfully completed the Jekyll build, including the site's HTML generation. Deployment then stopped at `actions/configure-pages@v5` with `Get Pages site failed: Not Found`. This is consistent with GitHub Pages not yet being enabled or not configured for GitHub Actions in the repository settings. **Do not claim the public website is deployed until the Pages deployment job succeeds and the site URL returns public HTML.**
+
+Repository owner action: open **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**, and save. Then re-run the **Build and deploy SCAM Watch to GitHub Pages** workflow from the Actions tab. No access token should be pasted into issues or public files. After successful deployment, check the homepage, `sitemap.xml`, and category pages before requesting search indexing.
