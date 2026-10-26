@@ -10,7 +10,11 @@ Website: https://bryansisk.github.io/scam-fraud-watch/
 - https://bryansisk.github.io/scam-fraud-watch/CORRECTIONS.html — correction and dispute process
 - https://bryansisk.github.io/scam-fraud-watch/DISCLAIMER.html — limitations and identity safeguards
 - https://bryansisk.github.io/scam-fraud-watch/CONTRIBUTING.html — reporting and privacy guidelines
-- https://bryansisk.github.io/scam-fraud-watch/categories/ — category guides
+- https://bryansisk.github.io/scam-fraud-watch/categories/marketplace-scams.html — marketplace warning signs
+- https://bryansisk.github.io/scam-fraud-watch/categories/payment-scams.html — payment-risk guidance
+- https://bryansisk.github.io/scam-fraud-watch/categories/copied-listing-scams.html — copied advertisements
+- https://bryansisk.github.io/scam-fraud-watch/categories/impersonation-scams.html — identity impersonation
+- https://bryansisk.github.io/scam-fraud-watch/categories/aviation-scams.html — aviation equipment listings
 
 ## Data
 - https://bryansisk.github.io/scam-fraud-watch/data/incidents.json — machine-readable dataset (currently empty)
