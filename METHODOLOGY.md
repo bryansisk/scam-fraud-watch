@@ -1,3 +1,8 @@
+---
+title: "Evidence Standards and Scam Classification Methodology"
+description: "How SCAM Watch evaluates evidence, distinguishes account identities from real people, and classifies fraud reports as Confirmed Fraud, Likely Scam, High Risk, or Unverified."
+---
+
 # SCAM Watch Methodology
 
 SCAM Watch publishes evidence-based consumer fraud warnings. The objective is accuracy, traceability, proportional classification, and prompt correction when better evidence becomes available.
