@@ -1,5 +1,6 @@
 ---
-title: "Marketplace Scams and Fraudulent Online Listings"description: "How to assess suspicious marketplace listings, verify seller claims, and identify copied ads or unprotected payment requests without assuming fraud."
+title: "Marketplace Scams and Fraudulent Online Listings"
+description: "How to assess suspicious marketplace listings, verify seller claims, and identify copied ads or unprotected payment requests without assuming fraud."
 ---
 # Marketplace Scams and Fraudulent Online Listings
 
