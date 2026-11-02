@@ -1,5 +1,6 @@
 ---
-title: "Copied Listing Scams: Stolen Photos and Advertisement Text"description: "How reused listing photos and descriptions can signal risk, and what dated source evidence helps distinguish copying from authorized reuse."
+title: "Copied Listing Scams: Stolen Photos and Advertisement Text"
+description: "How reused listing photos and descriptions can signal risk, and what dated source evidence helps distinguish copying from authorized reuse."
 ---
 # Copied Listing Scams
 
