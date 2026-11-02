@@ -1,5 +1,6 @@
 ---
-title: "Aviation Marketplace Scams: Headsets, Avionics, Aircraft Parts and Equipment"description: "Evidence-based warning signs for suspicious aviation headset, avionics, aircraft parts, and equipment listings, including proof of possession and payment risk."
+title: "Aviation Marketplace Scams: Headsets, Avionics, Aircraft Parts and Equipment"
+description: "Evidence-based warning signs for suspicious aviation headset, avionics, aircraft parts, and equipment listings, including proof of possession and payment risk."
 ---
 # Aviation Marketplace Scams
 
