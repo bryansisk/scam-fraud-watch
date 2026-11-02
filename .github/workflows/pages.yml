@@ -23,8 +23,8 @@ jobs:
           ruby -ryaml -rjson <<'RUBY'
           Dir.glob('**/*.md').each do |path|
             source = File.read(path)
-            next unless source.start_with?("---\\n")
-            match = source.match(/\\A---\\s*\\n(.*?)\\n---\\s*\\n/m)
+            next unless source.start_with?("---\n")
+            match = source.match(/\A---\s*\n(.*?)\n---\s*\n/m)
             abort "Invalid front matter delimiters: #{path}" unless match
             begin
               metadata = YAML.safe_load(match[1])
