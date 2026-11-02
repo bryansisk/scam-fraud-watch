@@ -1,5 +1,6 @@
 ---
-title: "Impersonation Scams and Stolen Seller Identities"description: "Why seller profile names and photographs do not establish real-world identity, and how to document account impersonation without misidentification."
+title: "Impersonation Scams and Stolen Seller Identities"
+description: "Why seller profile names and photographs do not establish real-world identity, and how to document account impersonation without misidentification."
 ---
 # Impersonation Scams and Stolen Seller Identities
 
