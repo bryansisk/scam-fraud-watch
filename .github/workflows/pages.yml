@@ -18,6 +18,26 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Validate content metadata and incident data
+        run: |
+          ruby -ryaml -rjson <<'RUBY'
+          Dir.glob('**/*.md').each do |path|
+            source = File.read(path)
+            next unless source.start_with?("---\\n")
+            match = source.match(/\\A---\\s*\\n(.*?)\\n---\\s*\\n/m)
+            abort "Invalid front matter delimiters: #{path}" unless match
+            begin
+              metadata = YAML.safe_load(match[1])
+            rescue Psych::Exception => e
+              abort "Invalid YAML front matter in #{path}: #{e.message}"
+            end
+            unless metadata.is_a?(Hash) && metadata['title'].is_a?(String) && metadata['description'].is_a?(String)
+              abort "Missing title or description in #{path}"
+            end
+          end
+          data = JSON.parse(File.read('data/incidents.json'))
+          abort 'Incident dataset must contain an incidents array' unless data['incidents'].is_a?(Array)
+          RUBY
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@v1
         with:
