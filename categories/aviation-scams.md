@@ -10,6 +10,10 @@ Buyers should verify the exact model and configuration, current proof of possess
 
 SCAM Watch aviation cases apply the same evidence and identity standards used throughout the repository.
 
+## Published aviation equipment incident
+
+- [Bose A30 AirplaneFlyers copied-listing and $700 payment dispute]({{ '/cases/bose-a30-airplaneflyers-copied-listing.html' | relative_url }}) — buyer-reported Amex reversal; listing identity not independently verified.
+
 ## Related guidance
 
 - [Marketplace scams]({{ '/categories/marketplace-scams.html' | relative_url }})
