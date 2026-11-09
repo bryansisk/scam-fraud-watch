@@ -1,6 +1,35 @@
 {
   "project": "SCAM Watch",
   "schema_version": "1.0",
-  "last_updated": "2026-09-01",
-  "incidents": []
+  "last_updated": "2026-11-09",
+  "incidents": [
+    {
+      "incident_id": "SW-2026-0001",
+      "title": "Bose A30 AirplaneFlyers copied-listing warning and $700 payment dispute",
+      "classification": "Likely Scam",
+      "date_reviewed": "2026-11-09",
+      "last_updated": "2026-11-09",
+      "platform": "AirplaneFlyers",
+      "category": "aviation equipment / copied listing / payment dispute",
+      "seller_identity_as_presented": "John Kirby (unverified displayed listing identity)",
+      "listing_location": "Seattle, Washington (as advertised)",
+      "asking_price": 800,
+      "currency": "USD",
+      "payment_method_requested": "PayPal Friends & Family (buyer-reported payment)",
+      "source_urls": [
+        "https://airplaneflyers.com/ads/airplane-flyers/avionics/show/bose-a30-aviation-headset-with-bluetooth",
+        "https://www.reddit.com/r/TheHangar/comments/16mvtt8"
+      ],
+      "red_flags": [
+        "Distinctive description substantially matches 2023 Reddit listing marked sold",
+        "Buyer reports non-delivery and lack of satisfactory tracking",
+        "Buyer reports $700 American Express reversal after PayPal Friends & Family payment"
+      ],
+      "evidence_notes": "Public listings independently checked November 9, 2026. Buyer reports $700 payment and subsequent Amex charge reversal; issuer record not independently verified. Displayed seller identity is not authenticated; no finding against a real person.",
+      "identity_verified": false,
+      "case_path": "cases/bose-a30-airplaneflyers-copied-listing.md",
+      "buyer_reported_card_reversal": true,
+      "reversal_verification": "buyer-reported"
+    }
+  ]
 }
