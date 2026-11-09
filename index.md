@@ -8,7 +8,11 @@ description: "SCAM Watch explains online fraud indicators and evidence standards
 
 SCAM Watch is an evidence-focused consumer research project. It explains warning signs in online listings and payment requests, and is designed to publish traceable incident reports only after an evidence review. **A warning sign is not proof that a seller committed fraud.**
 
-**Publication status:** No evidence-reviewed individual incident reports have been published in the public dataset yet. The category guides below describe fraud patterns and precautions, not findings against any named person or business.
+**Publication status:** One evidence-reviewed consumer incident report is published. Classification is based on public listing comparisons and buyer-reported payment outcome, not a finding against a verified individual.
+
+## Published incident reports
+
+- [Bose A30 AirplaneFlyers copied-listing and $700 payment dispute]({{ '/cases/bose-a30-airplaneflyers-copied-listing.html' | relative_url }}) — **Likely Scam**; American Express reversal reported by buyer; displayed seller identity unverified.
 
 ## Explore scam and fraud warning signs
 
@@ -30,6 +34,6 @@ Before suggesting a report, read the [submission and redaction guidelines]({{ '/
 
 ## Research and machine-readable data
 
-The public [JSON incident dataset]({{ '/data/incidents.json' | relative_url }}) and [CSV dataset]({{ '/data/incidents.csv' | relative_url }}) currently contain no published cases. The [incident schema]({{ '/schema/incident.schema.json' | relative_url }}) defines fields for future evidence-reviewed reports.
+The public [JSON incident dataset]({{ '/data/incidents.json' | relative_url }}) and [CSV dataset]({{ '/data/incidents.csv' | relative_url }}) contain the published case record. The [incident schema]({{ '/schema/incident.schema.json' | relative_url }}) defines fields for future evidence-reviewed reports.
 
 Discovery resources include the [XML sitemap]({{ '/sitemap.xml' | relative_url }}), [Atom feed]({{ '/feed.xml' | relative_url }}), and [AI navigation file]({{ '/llms.txt' | relative_url }}). These resources support discovery but do not guarantee indexing or search placement.
