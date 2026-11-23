@@ -1,6 +1,6 @@
 # SCAM Watch — Evidence-Based Scam and Fraud Research
 
-> Public-interest guides to marketplace fraud indicators, copied listings, unprotected payments, impersonation, and aviation equipment scams. The project has not yet published any reviewed individual incident records.
+> Public-interest guides to marketplace fraud indicators, copied listings, unprotected payments, impersonation, and aviation equipment scams. One evidence-reviewed consumer incident report is published; its classification is Likely Scam, not a finding against an identified person.
 
 Website: https://bryansisk.github.io/scam-fraud-watch/
 
@@ -16,8 +16,12 @@ Website: https://bryansisk.github.io/scam-fraud-watch/
 - https://bryansisk.github.io/scam-fraud-watch/categories/impersonation-scams.html — identity impersonation
 - https://bryansisk.github.io/scam-fraud-watch/categories/aviation-scams.html — aviation equipment listings
 
+## Published incident
+- https://bryansisk.github.io/scam-fraud-watch/cases/bose-a30-airplaneflyers-copied-listing.html — Bose A30 copied-listing warning and buyer-reported $700 payment dispute; Likely Scam; displayed identity unverified; American Express reversal buyer-reported, not independently verified
+
 ## Data
-- https://bryansisk.github.io/scam-fraud-watch/data/incidents.json — machine-readable dataset (currently empty)
+- https://bryansisk.github.io/scam-fraud-watch/data/incidents.json — machine-readable dataset (one published incident)
+- https://bryansisk.github.io/scam-fraud-watch/data/incidents.csv — CSV dataset (one published incident)
 - https://bryansisk.github.io/scam-fraud-watch/schema/incident.schema.json — incident record specification
 - https://bryansisk.github.io/scam-fraud-watch/sitemap.xml — HTML page discovery
 
